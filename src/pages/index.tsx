@@ -21,8 +21,8 @@ export async function getStaticProps() {
 export default ({ post }) => {
   return (
     <article>
-      <h1>Shu Ding</h1>
-      <Header title="Shu Ding" />
+      <h1>CW Notes</h1>
+      <Header title="CW Notes" />
       <Content blocks={post.content || []} />
     </article>
   )
